@@ -17,10 +17,10 @@ set APPLICATION_PROJECT_NAME=%SOLUTION_NAME%.Application
 :: set INTEGRATION_TEST_PROJECT_NAME=%SOLUTION_NAME%.Integration.Tests
 
 :: Create the main solution folder
-md %SOLUTION_NAME%
+:: md %SOLUTION_NAME%
 
 :: Change the working directory to the solution folder
-cd %SOLUTION_NAME%
+:: cd %SOLUTION_NAME%
 
 :: Create src and tests folders
 md src
